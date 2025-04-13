@@ -1,0 +1,97 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .register-container {
+
+    width: 100%;
+   
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b9b9b9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    width: 550px;
+  }
+  
+  .register-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .register-subtitle {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .register-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+  }
+  
+  .register-form input:focus {
+    outline: none;
+    border-color: #ff7f50;
+  }
+  
+  .register-form button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form button:hover {
+    background-color: #ff5a26;
+  }
+  
+  .signin-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signin-link {
+    color: #ff7f50;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .signin-link:hover {
+    text-decoration: underline;
+  }
