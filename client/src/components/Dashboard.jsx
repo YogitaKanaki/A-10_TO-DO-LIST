@@ -6,6 +6,7 @@ export default function Dashboard() {
     <div>
     <h1>welcome , Plese Select Catogery</h1>
       <Sidebar/>
+      <h2>hii</h2>
     </div>
   )
 }
