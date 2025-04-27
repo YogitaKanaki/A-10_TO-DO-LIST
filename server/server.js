@@ -27,5 +27,5 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
 //testing routes of registration and login
-//http://localhost:5010/api/auth/login
-//http://localhost:5010/api/auth/register
+http://localhost:5010/api/auth/login
+http://localhost:5010/api/auth/register
